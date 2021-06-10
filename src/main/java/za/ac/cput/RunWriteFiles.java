@@ -6,7 +6,6 @@
  */
 package za.ac.cput;
 
-
 public class RunWriteFiles 
 {
     public static void main(String[] args) 
