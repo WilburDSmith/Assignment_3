@@ -199,7 +199,7 @@ public class WriteFiles
                  bw1.write(customer.get(i).getStHolderId() + "\t" + customer.get(i).getFirstName() + "\t" + customer.get(i).getSurName() + "\t" + customer.get(i).getDateOfBirth() + "\n");
             }
             
-            bw1.write("\nThe number of cutomers who can rent: " + canRent +"\n");
+            bw1.write("\ngit The number of cutomers who can rent: " + canRent +"\n");
             bw1.write("The number of cutomers who can not rent: " + canNotRent);
         } 
         catch (IOException ioe) 
